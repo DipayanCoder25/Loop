@@ -63,8 +63,5 @@ if number == 0:
     count = 1
 
 print("Total number of digits:", count)
-if count!=0:
-    print("You have not entered any number or no numbers is found")
-    print("Invalid input")
-        
+
             
