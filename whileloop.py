@@ -37,7 +37,7 @@ while num1!=0:
     num2=temp
 hcf=num2           
 print("The HCF is: ",hcf)   
-'''
+
 num=int(input("Enter a number: "))
 rev=0
 temp=num
@@ -49,4 +49,22 @@ if rev==num:
     print("It's a palindrom ")
 else:
     print("It's not a palindrom ")
+            '''
+number = int(input("Enter a number: "))
+
+temp = abs(number) 
+count = 0
+
+
+while temp != 0:
+    temp = temp // 10
+    count += 1
+if number == 0:
+    count = 1
+
+print("Total number of digits:", count)
+if count!=0:
+    print("You have not entered any number or no numbers is found")
+    print("Invalid input")
+        
             
